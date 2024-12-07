@@ -16,3 +16,29 @@ if (window.matchMedia("(max-width: 1300px)")) {
     });
   });
 }
+
+// Animation écriture
+
+const txtAnim = document.querySelector('.txt-animation');
+
+let typewriter = new Typewriter(txtAnim, {
+  loop: false,
+  deleteSpeed: 20
+});
+
+typewriter
+  .pauseFor(1800)
+  .changeDelay(20)
+  .typeString('Moi, c\'est Kamal KHATIM')
+  .pauseFor(300)
+  .typeString(', <strong>Développeur Full Stack</strong> !')
+  .pauseFor(1000)
+  .deleteChars(26)
+  .typeString(', <strong style="color: #F26B0F;">Data Scientist</strong> !')
+  .pauseFor(1000)
+  .deleteChars(18)
+  .typeString(', <strong style="color: #138808;">Technique informatique</strong> !')
+  .pauseFor(1000)
+  .deleteChars(26)
+  .typeString(', <strong style="color: #394808;">Gestionnaire</strong> !')
+  .start()

@@ -231,8 +231,8 @@ h1 {
 }
 
 .media {
-  width: 80px; /* Taille uniforme pour chaque cercle */
-  height: 80px;
+  width: 50px; /* Taille uniforme pour chaque cercle */
+  height: 50px;
   background: #000; /* Couleur de fond noire */
   border-radius: 50%; /* Forme circulaire */
   border: 1px solid #000; /* Bordure noire */
@@ -244,14 +244,13 @@ h1 {
 }
 .media2 {
   background: transparent; /* Couleur de fond blanche */
-  border: 15px solid black; /* Bordure noire */
+  border: 10px solid black; /* Bordure noire */
   color: black; /* Couleur du contenu noir */
 }
-
 .media:hover {
   transform: scale(1.1); /* Agrandissement léger au survol */
 }
-
+ù
 .icone-media {
   width: 50px; /* Taille des icônes uniformes */
   height: auto; /* Garde les proportions */
@@ -337,15 +336,15 @@ h1 {
   }
 }
 @media screen and (max-width: 450px) {
-  .btn-rond-menu{
+  .btn-rond-menu {
     width: 50px;
     height: 50px;
   }
-  .cont-ligne{
+  .cont-ligne {
     width: 20px;
     height: 38px;
   }
-  .line-unique{
+  .line-unique {
     height: 3px;
   }
   .line-unique::before {
@@ -359,24 +358,24 @@ h1 {
   .accueil {
     height: 500px;
   }
-  h1{
+  h1 {
     margin: 0 30px 0 30px;
     padding-top: 120px;
   }
-  .accueil p{
+  .accueil p {
     margin: 30px 0 0px 5px;
   }
-  .btn-acc{
+  .btn-acc {
     width: 100px;
     height: 35px;
     font-size: 12px;
     margin: 30px 0 0 5px;
   }
-  .medias{
+  .medias {
     margin-top: 30px;
     margin-left: 5px;
   }
-  .icone-media{
+  .icone-media {
     width: 20px;
   }
 }
