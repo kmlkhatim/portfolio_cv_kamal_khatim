@@ -177,7 +177,7 @@ body {
 /*-------------------Accueil-------------------*/
 
 .accueil {
-  background: url(ressources/accueil.jpg);
+  background: url(ressources/site2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -250,8 +250,7 @@ h1 {
 .media:hover {
   transform: scale(1.1); /* Agrandissement léger au survol */
 }
-ù
-.icone-media {
+ù .icone-media {
   width: 50px; /* Taille des icônes uniformes */
   height: auto; /* Garde les proportions */
 }
@@ -377,5 +376,20 @@ h1 {
   }
   .icone-media {
     width: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .txt-animation {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 370px) {
+  .txt-animation {
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .txt-animation {
+    font-size: 11px !important;
   }
 }
