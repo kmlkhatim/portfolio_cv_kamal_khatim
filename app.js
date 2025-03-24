@@ -26,28 +26,20 @@ if(window.matchMedia('(max-width: 1300px)')) {
 const txtAnim = document.querySelector('.txt-animation');
 
 let typewriter = new Typewriter(txtAnim,  {
-    loop: false,
+    loop: true,
     deleteSpeed: 20
 })
 
 typewriter 
 .pauseFor(1800)
 .changeDelay(20)
-.typeString('Moi c\'est Enzo Ustariz')
+.typeString('Moi c\'est Kamal KHATIM')
 .pauseFor(300)
-.typeString('<strong>, Développeur Full-Stack</strong> !')
+.typeString('<strong>, Développeur IT</strong> !')
 .pauseFor(1000)
-.deleteChars(13)
-.typeString('<span style="color: #27ae60;"> CSS</span> !')
+.deleteChars(18)
+.typeString('<strong>, Gestionnaire Logistique</strong> !')
 .pauseFor(1000)
-.deleteChars(5)
-.typeString('<span style="color: #EA39ff;"> PhP</span> !')
-.pauseFor(1000)
-.deleteChars(5)
-.typeString('<span style="color: midnightblue;"> React</span> !')
-.pauseFor(1000)
-.deleteChars(8)
-.typeString('<span style="color: #ff6910;"> JavaScript</span> !')
 .start()
 
 // Animation Contact
